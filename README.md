@@ -1,6 +1,8 @@
-## Hi there 👋
-# 💫 About Me:
-🔭 I’m currently working on full-stack web development projects, focusing on real-world applications using modern technologies.<br><br>👯 I’m looking to collaborate on open-source projects, web applications, and beginner-friendly full-stack projects.<br><br>🤝 I’m looking for help with system design basics, backend scalability, and improving problem-solving skills.<br><br>🌱 I’m currently learning Data Structures & Algorithms, advanced JavaScript, backend development, and REST APIs.<br><br>💬 Ask me about HTML, CSS, JavaScript, basic React, full-stack roadmap, and BTech student guidance.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/light.svg">
+  <img alt="Profile banner" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/light.svg">
+</picture>
 
 
 ## 🌐 Socials:
