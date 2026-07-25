@@ -9,6 +9,8 @@
 - 💼 Open to **software engineering internships, entry-level roles, and meaningful collaborations**
 - 📍 Based in India
 
+<img alt="An animated isometric 3D workflow showing Idea, Build, and Ship" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/workflow-3d.svg">
+
 ## Featured projects
 
 | Project | What I built | Stack |

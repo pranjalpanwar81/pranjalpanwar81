@@ -1,0 +1,21 @@
+<svg width="1200" height="245" viewBox="0 0 1200 245" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="back" x1="0" y1="0" x2="1200" y2="245" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1025"/><stop offset=".55" stop-color="#13275B"/><stop offset="1" stop-color="#092B37"/></linearGradient>
+    <linearGradient id="one" x1="100" y1="35" x2="310" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#4F46E5"/><stop offset="1" stop-color="#312E81"/></linearGradient>
+    <linearGradient id="two" x1="460" y1="35" x2="670" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#0EA5E9"/><stop offset="1" stop-color="#0E7490"/></linearGradient>
+    <linearGradient id="three" x1="820" y1="35" x2="1030" y2="180" gradientUnits="userSpaceOnUse"><stop stop-color="#10B981"/><stop offset="1" stop-color="#047857"/></linearGradient>
+    <filter id="g" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#67E8F9" fill-opacity=".2"/></pattern>
+  </defs>
+  <rect width="1200" height="245" rx="22" fill="url(#back)"/>
+  <rect width="1200" height="245" rx="22" fill="url(#dots)"/>
+  <g opacity=".5" stroke="#67E8F9" stroke-width="2" stroke-dasharray="6 8"><path d="M326 119H450"><animate attributeName="stroke-dashoffset" values="0;-28" dur="1.8s" repeatCount="indefinite"/></path><path d="M686 119H810"><animate attributeName="stroke-dashoffset" values="0;-28" dur="1.8s" repeatCount="indefinite"/></path></g>
+  <g font-family="ui-monospace,monospace" font-size="12" letter-spacing="2" fill="#A5F3FC"><text x="35" y="35">MY DEVELOPMENT FLOW</text><text x="1165" y="35" text-anchor="end" fill="#34D399">IDEA → IMPACT</text></g>
+  <g filter="url(#g)">
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="3.3s" repeatCount="indefinite"/><path d="M95 92L185 63L275 92L185 121Z" fill="#6366F1"/><path d="M95 92L185 121V177L95 145Z" fill="url(#one)"/><path d="M185 121L275 92V148L185 177Z" fill="#3730A3"/><text x="185" y="104" text-anchor="middle" fill="white" font-family="ui-monospace,monospace" font-size="16" font-weight="700">IDEA</text></g>
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.7s" begin="-.6s" repeatCount="indefinite"/><path d="M455 92L545 63L635 92L545 121Z" fill="#38BDF8"/><path d="M455 92L545 121V177L455 145Z" fill="url(#two)"/><path d="M545 121L635 92V148L545 177Z" fill="#0369A1"/><text x="545" y="104" text-anchor="middle" fill="white" font-family="ui-monospace,monospace" font-size="16" font-weight="700">BUILD</text></g>
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="3.5s" begin="-1.2s" repeatCount="indefinite"/><path d="M815 92L905 63L995 92L905 121Z" fill="#34D399"/><path d="M815 92L905 121V177L815 145Z" fill="url(#three)"/><path d="M905 121L995 92V148L905 177Z" fill="#047857"/><text x="905" y="104" text-anchor="middle" fill="white" font-family="ui-monospace,monospace" font-size="16" font-weight="700">SHIP</text></g>
+  </g>
+  <g font-family="ui-monospace,monospace" font-size="12" letter-spacing="1.1" fill="#D9F99D"><text x="185" y="209" text-anchor="middle">RESEARCH + DESIGN</text><text x="545" y="209" text-anchor="middle">CODE + ITERATE</text><text x="905" y="209" text-anchor="middle">TEST + DELIVER</text></g>
+  <rect x="1" y="1" width="1198" height="243" rx="21" stroke="#67E8F9" stroke-opacity=".28" stroke-width="2"/>
+</svg>
