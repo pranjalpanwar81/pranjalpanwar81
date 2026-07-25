@@ -8,7 +8,6 @@
 - 🧠 Interested in **AI-integrated applications, backend systems, and developer-friendly products**
 - 💼 Open to **software engineering internships, entry-level roles, and meaningful collaborations**
 - 📍 Based in India
-- 📦 **<!-- REPO_COUNT_END --> public repositories** — always building and improving
 
 <img alt="An animated isometric 3D workflow showing Idea, Build, and Ship" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/workflow-3d.svg">
 
