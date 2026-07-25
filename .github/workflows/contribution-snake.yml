@@ -30,7 +30,7 @@ jobs:
           mkdir -p /tmp/contribution-snake
           cp dist/*.svg /tmp/contribution-snake/
           git switch --orphan "$TARGET_BRANCH"
-          git rm -rf .
+          git rm -rf . || true
           cp /tmp/contribution-snake/*.svg .
           git add *.svg
           git config user.name "github-actions[bot]"
