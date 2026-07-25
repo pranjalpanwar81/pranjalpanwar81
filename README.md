@@ -45,6 +45,14 @@
 
 I bring an engineering-student mindset to software: stay curious, test assumptions, learn quickly, and ship a better version. I am building a portfolio around useful full-stack products—not just isolated tutorials.
 
+## Contribution snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/output/github-contribution-grid-snake.svg">
+  <img alt="Animated snake moving through Pranjal Panwar's GitHub contributions" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/output/github-contribution-grid-snake-dark.svg">
+</picture>
+
 ---
 
 <sub>Design • Build • Learn • Ship</sub>
