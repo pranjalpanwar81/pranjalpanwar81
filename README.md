@@ -21,9 +21,7 @@
 
 ## Toolkit
 
-<p>
-  <img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,redis,html,css,git,github&perline=10" alt="JavaScript, React, Node.js, Express, MongoDB, Redis, HTML, CSS, Git, GitHub" />
-</p>
+<img alt="Animated 3D technology deck with JavaScript, React, Node, Express, MongoDB, and Redis" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/tech-deck-3d.svg">
 
 ## How I build
 
