@@ -23,17 +23,26 @@
   <img src="https://skillicons.dev/icons?i=js,react,nodejs,express,mongodb,redis,html,css,git,github&perline=10" alt="JavaScript, React, Node.js, Express, MongoDB, Redis, HTML, CSS, Git, GitHub" />
 </p>
 
-## GitHub at a glance
+## How I build
 
-<p>
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=pranjalpanwar81&show_icons=true&hide_title=true&theme=transparent&hide_border=true" alt="Pranjal's GitHub statistics" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranjalpanwar81&layout=compact&theme=transparent&hide_border=true" alt="Pranjal's most used languages" />
-</p>
+> **Think in systems.** I enjoy breaking a product into a clear frontend, dependable APIs, and background processes that do the heavy work.
 
-## Let's connect
+> **Make it useful.** Whether it is a document intelligence tool or a video transcoder, I focus on projects people can actually use.
 
-If you're building something useful—or looking for a developer who enjoys taking an idea from interface to API—feel free to explore my repositories and reach out through GitHub.
+> **Keep learning in public.** My repositories document the experiments, iterations, and features behind my growth as a developer.
+
+## Current direction
+
+```text
+01  AI-assisted web applications with reliable, source-grounded outputs
+02  Scalable Node.js backends, queues, real-time updates, and media workflows
+03  Clean React interfaces that make technical tools feel simple
+```
+
+## Beyond the code
+
+I bring an engineering-student mindset to software: stay curious, test assumptions, learn quickly, and ship a better version. I am building a portfolio around useful full-stack products—not just isolated tutorials.
 
 ---
 
-<sub>Always learning, always shipping.</sub>
+<sub>Design • Build • Learn • Ship</sub>
