@@ -28,7 +28,7 @@
   <g opacity=".85" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2" fill="#A5F3FC">
     <text x="65" y="70">PRANJAL_PANWAR</text><text x="65" y="93" fill="#818CF8">FULL_STACK_DEVELOPER</text>
     <text x="1005" y="70" text-anchor="end" fill="#34D399">● BUILDING</text>
-    <text x="1005" y="94" text-anchor="end" fill="#A5F3FC">REPOS: <!-- REPO_COUNT_START -->29<!-- REPO_COUNT_END --></text>
+    <text x="1005" y="94" text-anchor="end" fill="#A5F3FC">REPOS: <!-- REPO_COUNT_END --></text>
   </g>
 
   <!-- isometric platform -->
