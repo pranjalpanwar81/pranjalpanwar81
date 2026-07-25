@@ -1,0 +1,90 @@
+<svg width="1200" height="480" viewBox="0 0 1200 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#080B1D"/><stop offset=".55" stop-color="#101B42"/><stop offset="1" stop-color="#0A1028"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="210" y1="345" x2="990" y2="345" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#172554"/><stop offset=".5" stop-color="#1E3A8A"/><stop offset="1" stop-color="#0F766E"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="570" y1="126" x2="850" y2="310" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#12275A"/><stop offset="1" stop-color="#07142F"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="530" y1="126" x2="884" y2="318" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/><stop offset=".5" stop-color="#818CF8"/><stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="cube" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#38BDF8"/><stop offset="1" stop-color="#4F46E5"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="14"/></filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#67E8F9" stroke-opacity=".08"/></pattern>
+  </defs>
+
+  <rect width="1200" height="480" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="480" rx="28" fill="url(#grid)"/>
+  <circle cx="220" cy="55" r="150" fill="#4F46E5" fill-opacity=".18" filter="url(#shadow)"/>
+  <circle cx="1010" cy="390" r="160" fill="#14B8A6" fill-opacity=".14" filter="url(#shadow)"/>
+
+  <g opacity=".85" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="13" letter-spacing="2" fill="#A5F3FC">
+    <text x="65" y="70">PRANJAL_PANWAR</text><text x="65" y="93" fill="#818CF8">FULL_STACK_DEVELOPER</text>
+    <text x="1005" y="70" text-anchor="end" fill="#34D399">● BUILDING</text>
+  </g>
+
+  <!-- isometric platform -->
+  <path d="M220 334L600 245L990 334L600 430Z" fill="url(#floor)" stroke="url(#edge)" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M220 334L600 430V447L220 351Z" fill="#0B1740"/>
+  <path d="M600 430L990 334V351L600 447Z" fill="#0A4550"/>
+  <path d="M285 335L600 263L915 335L600 407Z" fill="none" stroke="#67E8F9" stroke-opacity=".18"/>
+
+  <!-- floating data paths -->
+  <g stroke="#67E8F9" stroke-width="2" stroke-dasharray="7 10" opacity=".7" fill="none">
+    <path d="M338 205C420 145 466 162 530 205"><animate attributeName="stroke-dashoffset" values="0;-34" dur="2s" repeatCount="indefinite"/></path>
+    <path d="M863 205C927 160 959 180 1012 135"><animate attributeName="stroke-dashoffset" values="0;-34" dur="2.4s" repeatCount="indefinite"/></path>
+  </g>
+
+  <!-- laptop, raised and gently floating -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -7;0 0" dur="4.5s" repeatCount="indefinite"/>
+    <ellipse cx="707" cy="350" rx="205" ry="28" fill="#020617" fill-opacity=".75" filter="url(#shadow)"/>
+    <path d="M522 126L844 183V315L522 257Z" fill="url(#screen)" stroke="url(#edge)" stroke-width="4"/>
+    <path d="M844 183L878 160V291L844 315Z" fill="#0A294A" stroke="#67E8F9" stroke-opacity=".5" stroke-width="3"/>
+    <path d="M522 126L556 104L878 160L844 183Z" fill="#193C70" stroke="#818CF8" stroke-opacity=".7" stroke-width="3"/>
+    <path d="M511 276L844 334L918 307L586 249Z" fill="#172554" stroke="url(#edge)" stroke-width="3"/>
+    <path d="M511 276L844 334V350L511 292Z" fill="#0B1534"/>
+    <path d="M844 334L918 307V323L844 350Z" fill="#0E5260"/>
+    <!-- editor header -->
+    <circle cx="553" cy="149" r="5" fill="#FB7185"/><circle cx="570" cy="152" r="5" fill="#FBBF24"/><circle cx="587" cy="155" r="5" fill="#34D399"/>
+    <path d="M611 160L798 193" stroke="#94A3B8" stroke-opacity=".35" stroke-width="2"/>
+    <!-- code lines in perspective -->
+    <g stroke-linecap="round">
+      <path d="M553 181L641 197" stroke="#C4B5FD" stroke-width="7"/><path d="M651 199L741 215" stroke="#67E8F9" stroke-width="7"/>
+      <path d="M574 210L665 226" stroke="#34D399" stroke-width="6"/><path d="M675 228L776 246" stroke="#818CF8" stroke-width="6"/>
+      <path d="M591 239L680 255" stroke="#FDE68A" stroke-width="6"/><path d="M691 257L754 268" stroke="#67E8F9" stroke-width="6"/>
+      <path d="M611 268L721 288" stroke="#A5B4FC" stroke-width="6"/>
+    </g>
+    <!-- keyboard highlights -->
+    <g fill="#67E8F9" fill-opacity=".45"><path d="M584 278L610 283L600 287L574 282Z"/><path d="M617 284L643 289L633 293L607 288Z"/><path d="M650 290L676 295L666 299L640 294Z"/><path d="M683 296L709 301L699 305L673 300Z"/><path d="M716 302L742 307L732 311L706 306Z"/></g>
+  </g>
+
+  <!-- terminal cube -->
+  <g filter="url(#glow)">
+    <animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="3.4s" repeatCount="indefinite"/>
+    <path d="M288 225L352 208L408 235L344 253Z" fill="#1E3A8A" stroke="#67E8F9" stroke-width="2"/>
+    <path d="M288 225L344 253V323L288 293Z" fill="#12235B" stroke="#67E8F9" stroke-width="2"/>
+    <path d="M344 253L408 235V305L344 323Z" fill="url(#cube)" stroke="#67E8F9" stroke-width="2"/>
+    <text x="308" y="273" fill="#E0F2FE" font-family="monospace" font-size="22">&gt;_</text>
+    <text x="355" y="280" fill="#E0F2FE" font-family="monospace" font-size="13">RUN</text>
+  </g>
+
+  <!-- 3D tech cubes -->
+  <g font-family="ui-monospace,monospace" font-weight="700" font-size="15" fill="white" text-anchor="middle">
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="4s" repeatCount="indefinite"/><path d="M943 192L980 181L1014 198L977 210Z" fill="#4F46E5"/><path d="M943 192L977 210V249L943 230Z" fill="#312E81"/><path d="M977 210L1014 198V237L977 249Z" fill="#0891B2"/><text x="978" y="228">JS</text></g>
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="3.2s" begin="-.8s" repeatCount="indefinite"/><path d="M414 111L447 101L478 116L445 128Z" fill="#059669"/><path d="M414 111L445 128V163L414 146Z" fill="#065F46"/><path d="M445 128L478 116V151L445 163Z" fill="#0D9488"/><text x="445" y="148">DB</text></g>
+  </g>
+
+  <g font-family="ui-monospace,monospace" font-size="12" letter-spacing="1.4" fill="#BAE6FD">
+    <text x="68" y="410">01 / DESIGN</text><text x="68" y="432" fill="#818CF8">02 / BUILD</text><text x="68" y="454" fill="#34D399">03 / SHIP</text>
+    <text x="1132" y="432" text-anchor="end">NODE · REACT · AI</text>
+  </g>
+  <rect x="1" y="1" width="1198" height="478" rx="27" stroke="#67E8F9" stroke-opacity=".25" stroke-width="2"/>
+</svg>

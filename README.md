@@ -1,8 +1,4 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/light.svg">
-  <img alt="Pranjal Panwar profile banner" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/light.svg">
-</picture>
+<img alt="An isometric 3D developer workstation with an editor, terminal, and floating tech cubes" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/developer-3d.svg">
 
 # Hi, I'm Pranjal Panwar 👋
 
