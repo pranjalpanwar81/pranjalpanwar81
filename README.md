@@ -1,48 +1,48 @@
-<img alt="An isometric 3D developer workstation with an editor, terminal, and floating tech cubes" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/developer-3d.svg">
+<div align="center">
 
-# Hi, I'm Pranjal Panwar 👋
+<img src="./assets/hero.svg" width="100%" alt="Pranjal Panwar — Full Stack Developer"/>
+
+<a href="https://portfolio-jo6r.onrender.com/"><img src="https://img.shields.io/badge/Portfolio-0b1030?style=for-the-badge&logo=googlechrome&logoColor=22d3ee" /></a>
+<a href="https://www.linkedin.com/in/pranjal-panwar-7a84b2257"><img src="https://img.shields.io/badge/LinkedIn-0b1030?style=for-the-badge&logo=linkedin&logoColor=8b5cf6" /></a>
+<img src="https://komarev.com/ghpvc/?username=pranjalpanwar81&style=for-the-badge&color=0b1030&label=PROFILE+VIEWS" />
+
+<img src="./assets/divider.svg" width="100%"/>
+
+</div>
+
+### `> whoami`
 
 **Final-year ENTC student and full-stack developer** building practical web products with clean APIs, thoughtful interfaces, and AI-ready workflows.
 
-- 🌱 Currently sharpening my skills in **React, Node.js, Express, MongoDB, and Redis**
-- 🧠 Interested in **AI-integrated applications, backend systems, and developer-friendly products**
-- 💼 Open to **software engineering internships, entry-level roles, and meaningful collaborations**
-- 📍 Based in India
-
-<img alt="An animated isometric 3D workflow showing Idea, Build, and Ship" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/workflow-3d.svg">
-
-## Featured projects
-
-| Project | What I built | Stack |
-| --- | --- | --- |
-| [DocuTrust AI](https://github.com/pranjalpanwar81/DocuTrust-AI) | A citation-grounded RAG platform for asking reliable questions about policies, contracts, SOPs, invoices, and compliance files. | AI, document processing, retrieval |
-| [Local Transcoder](https://github.com/pranjalpanwar81/local-transcoder) | A privacy-first, local video conversion app with live progress, Redis job queues, and FFmpeg workers. | Node.js, Express, Redis, Socket.IO, FFmpeg |
-| [Wanderlust](https://github.com/pranjalpanwar81/Wanderlust) | A full-stack travel listing application with listings, reviews, and CRUD workflows. | Node.js, Express, MongoDB, EJS |
-
-## Toolkit
-
-<img alt="Animated 3D technology deck with JavaScript, React, Node, Express, MongoDB, and Redis" src="https://raw.githubusercontent.com/pranjalpanwar81/pranjalpanwar81/main/tech-deck-3d.svg">
-
-## How I build
-
-> **Think in systems.** I enjoy breaking a product into a clear frontend, dependable APIs, and background processes that do the heavy work.
-
-> **Make it useful.** Whether it is a document intelligence tool or a video transcoder, I focus on projects people can actually use.
-
-> **Keep learning in public.** My repositories document the experiments, iterations, and features behind my growth as a developer.
-
-## Current direction
-
-```text
-01  AI-assisted web applications with reliable, source-grounded outputs
-02  Scalable Node.js backends, queues, real-time updates, and media workflows
-03  Clean React interfaces that make technical tools feel simple
+```ts
+const pranjal = {
+  base:        "Pune, India 📍",
+  building:    ["MERN apps", "REST APIs", "AI-integrated web apps"],
+  sharpening:  ["React", "Node.js", "Express", "MongoDB", "Redis"],
+  interests:   ["backend systems", "developer-friendly products", "LLMs"],
+  openTo:      ["SWE internships", "entry-level roles", "collaborations"],
+};
 ```
 
-## Beyond the code
+<div align="center">
 
-I bring an engineering-student mindset to software: stay curious, test assumptions, learn quickly, and ship a better version. I am building a portfolio around useful full-stack products—not just isolated tutorials.
+<img src="./assets/stack.svg" width="100%" alt="Tech stack orbit"/>
 
----
+<img src="./assets/flow.svg" width="100%" alt="Design → Build → Ship"/>
 
-<sub>Design • Build • Learn • Ship</sub>
+<img src="./assets/divider.svg" width="100%"/>
+
+### `> git log --stats`
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D contribution skyline"/>
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=pranjalpanwar81&show_icons=true&hide_border=true&bg_color=0b1030&title_color=22d3ee&icon_color=8b5cf6&text_color=cbd5e1&ring_color=f472b6&rank_icon=github" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranjalpanwar81&layout=compact&hide_border=true&bg_color=0b1030&title_color=22d3ee&text_color=cbd5e1&langs_count=6" />
+
+<img src="https://streak-stats.demolab.com?user=pranjalpanwar81&hide_border=true&background=0B1030&ring=8B5CF6&fire=F472B6&currStreakLabel=22D3EE&sideLabels=CBD5E1&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" width="70%"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pranjalpanwar81&bg_color=0b1030&color=22d3ee&line=8b5cf6&point=f472b6&area=true&area_color=8b5cf6&hide_border=true&radius=16" width="100%"/>
+
+<img src="./assets/footer.svg" width="100%" alt="Let's build something that ships"/>
+
+</div>
