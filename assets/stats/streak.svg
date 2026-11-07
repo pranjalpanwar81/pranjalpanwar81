@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="210" viewBox="0 0 960 210" role="img" aria-label="Contribution streak">
+<title>Contribution streak</title>
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22d3ee"/><stop offset="0.55" stop-color="#8b5cf6"/><stop offset="1" stop-color="#f472b6"/></linearGradient>
+  <linearGradient id="gv" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8b5cf6" stop-opacity="0.55"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></linearGradient>
+</defs>
+<style>
+  .t{font:600 18px Segoe UI,Helvetica,Arial,sans-serif;fill:#22d3ee}
+  .l{font:400 14px Segoe UI,Helvetica,Arial,sans-serif;fill:#cbd5e1}
+  .v{font:700 14px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff}
+  .s{font:400 12px Segoe UI,Helvetica,Arial,sans-serif;fill:#94a3b8}
+  .m{font:400 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#94a3b8}
+  .fade{opacity:0;animation:in .6s ease forwards}
+  @keyframes in{to{opacity:1}}
+</style>
+<rect x="0.5" y="0.5" width="959" height="209" rx="16" fill="#0b1030" stroke="#1f2a5c"/>
+<line x1="320" y1="40" x2="320" y2="176" stroke="#1f2a5c"/><line x1="640" y1="40" x2="640" y2="176" stroke="#1f2a5c"/>
+<g class="fade" transform="translate(160 0)">
+  <text x="0" y="104" text-anchor="middle" style="font:700 34px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff">447</text>
+  <text x="0" y="140" text-anchor="middle" style="font:600 15px Segoe UI,Helvetica,Arial,sans-serif;fill:#22d3ee">Total Contributions</text>
+  <text x="0" y="164" text-anchor="middle" class="s">Jul 5, 2023 – Present</text>
+</g>
+<g transform="translate(480 92)">
+  <circle r="46" fill="none" stroke="#8b5cf6" stroke-width="5"/>
+  <path d="M0 -60 c 7 8 9 13 4 20 c 6 -2 8 -6 8 -10 c 6 7 5 16 -2 21 c -6 4 -14 4 -20 0 c -7 -5 -8 -14 -2 -21 c 0 4 2 8 6 10 c -3 -6 0 -13 6 -20z" fill="#f472b6" transform="scale(0.55) translate(0 -37.72)"/>
+  <text x="0" y="12" text-anchor="middle" style="font:700 34px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff">1</text>
+</g>
+<text x="480" y="168" text-anchor="middle" style="font:600 15px Segoe UI,Helvetica,Arial,sans-serif;fill:#22d3ee">Current Streak</text>
+<text x="480" y="190" text-anchor="middle" class="s">Nov 7, 2026</text>
+<g class="fade" transform="translate(800 0)">
+  <text x="0" y="104" text-anchor="middle" style="font:700 34px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff">9</text>
+  <text x="0" y="140" text-anchor="middle" style="font:600 15px Segoe UI,Helvetica,Arial,sans-serif;fill:#22d3ee">Longest Streak</text>
+  <text x="0" y="164" text-anchor="middle" class="s">Jul 23 – Jul 31, 2026</text>
+</g>
+</svg>
