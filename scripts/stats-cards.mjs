@@ -196,7 +196,7 @@ function statsCard(d, s) {
   </circle>
   <text x="0" y="6" text-anchor="middle" style="font:700 26px ${SANS};fill:${T.white}">${fmt(lastTotal)}</text>
   <text x="0" y="26" text-anchor="middle" class="s">past year</text>
-  <text x="0" y="${r + 28}" text-anchor="middle" class="m">contributions · ${active} active days</text>
+  <text x="0" y="${r + 28}" text-anchor="middle" class="m">${active} active days</text>
 </g>`
   return frame(480, 210, `<text class="t" x="26" y="34">GitHub Stats</text>\n${body}\n${ring}`, `${d.name}'s GitHub stats`)
 }
