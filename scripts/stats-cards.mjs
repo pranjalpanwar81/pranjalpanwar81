@@ -195,8 +195,8 @@ function statsCard(d, s) {
     <animate attributeName="stroke-dasharray" from="0 ${C.toFixed(1)}" to="${(C * frac).toFixed(1)} ${C.toFixed(1)}" dur="1.2s" fill="freeze"/>
   </circle>
   <text x="0" y="6" text-anchor="middle" style="font:700 26px ${SANS};fill:${T.white}">${fmt(lastTotal)}</text>
-  <text x="0" y="26" text-anchor="middle" class="s">contributions</text>
-  <text x="0" y="${r + 28}" text-anchor="middle" class="m">${active} active days · 365d</text>
+  <text x="0" y="26" text-anchor="middle" class="s">past year</text>
+  <text x="0" y="${r + 28}" text-anchor="middle" class="m">contributions · ${active} active days</text>
 </g>`
   return frame(480, 210, `<text class="t" x="26" y="34">GitHub Stats</text>\n${body}\n${ring}`, `${d.name}'s GitHub stats`)
 }

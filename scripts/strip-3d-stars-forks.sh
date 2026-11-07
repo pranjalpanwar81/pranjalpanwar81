@@ -6,3 +6,8 @@ set -euo pipefail
 for f in profile-3d-contrib/*.svg; do
   perl -0pi -e 's#<g transform="translate\(\d+, \d+\), scale\(2\)"><path [^>]*></path></g><text [^>]*>\d+<title>\d+</title></text>##g' "$f"
 done
+# Also remove the "N contributions" total; the stats card shows the
+# up-to-date past-year figure instead.
+for f in profile-3d-contrib/*.svg; do
+  perl -0pi -e 's#<text [^>]*class="fill-strong">\d+</text><text [^>]*>contributions</text>##g' "$f"
+done
