@@ -16,7 +16,7 @@
 <rect x="0.5" y="0.5" width="959" height="209" rx="16" fill="#0b1030" stroke="#1f2a5c"/>
 <line x1="320" y1="40" x2="320" y2="176" stroke="#1f2a5c"/><line x1="640" y1="40" x2="640" y2="176" stroke="#1f2a5c"/>
 <g class="fade" transform="translate(160 0)">
-  <text x="0" y="104" text-anchor="middle" style="font:700 34px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff">448</text>
+  <text x="0" y="104" text-anchor="middle" style="font:700 34px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff">449</text>
   <text x="0" y="140" text-anchor="middle" style="font:600 15px Segoe UI,Helvetica,Arial,sans-serif;fill:#22d3ee">Total Contributions</text>
   <text x="0" y="164" text-anchor="middle" class="s">Jul 5, 2023 – Present</text>
 </g>
