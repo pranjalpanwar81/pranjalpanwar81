@@ -1,0 +1,36 @@
+name: Stats cards
+
+on:
+  schedule:
+    - cron: "40 18 * * *"   # daily, ~12:10 AM IST
+  push:
+    branches: [main]
+    paths:
+      - scripts/stats-cards.mjs
+      - .github/workflows/stats-cards.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Render stat cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+        run: node scripts/stats-cards.mjs
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats
+          git commit -m "chore: refresh stats cards" || exit 0
+          git pull --rebase origin main
+          git push
