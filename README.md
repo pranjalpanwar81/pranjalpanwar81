@@ -34,12 +34,12 @@ const pranjal = {
 
 ### `> git log --stats`
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg?v=2" width="100%" alt="3D contribution skyline"/>
+<img src="./assets/skyline.svg" width="100%" alt="3D contribution skyline"/>
 
-<img src="./assets/stats/stats.svg?v=2" width="49%" alt="GitHub stats"/>
+<img src="./assets/stats/stats.svg" width="49%" alt="GitHub stats"/>
 <img src="./assets/stats/languages.svg" width="49%" alt="Most used languages"/>
 
-<img src="./assets/stats/streak.svg?v=2" width="70%" alt="Contribution streak"/>
+<img src="./assets/stats/streak.svg" width="70%" alt="Contribution streak"/>
 
 <img src="./assets/footer.svg" width="100%" alt="Let's build something that ships"/>
 

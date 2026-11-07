@@ -18,7 +18,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Remove star and fork counters
-        run: ./scripts/strip-3d-stars-forks.sh
+        run: |
+          ./scripts/strip-3d-stars-forks.sh
+          cp profile-3d-contrib/profile-night-rainbow.svg assets/skyline.svg
       - name: Commit
         run: |
           git config user.name github-actions
