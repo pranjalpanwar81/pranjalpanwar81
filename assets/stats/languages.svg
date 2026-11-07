@@ -10,17 +10,15 @@
   .v{font:700 14px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff}
   .s{font:400 12px Segoe UI,Helvetica,Arial,sans-serif;fill:#94a3b8}
   .m{font:400 11px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#94a3b8}
-  .fade{opacity:0;animation:in .6s ease forwards}
-  @keyframes in{to{opacity:1}}
 </style>
 <rect x="0.5" y="0.5" width="479" height="209" rx="16" fill="#0b1030" stroke="#1f2a5c"/>
 <text class="t" x="26" y="34">Most Used Languages</text>
 <clipPath id="bar"><rect x="26" y="52" width="428" height="10" rx="5"/></clipPath>
-<g clip-path="url(#bar)"><rect x="26.0" y="52" width="177.5" height="10" fill="#f1e05a"/><rect x="203.5" y="52" width="79.5" height="10" fill="#e34c26"/><rect x="283.0" y="52" width="55.3" height="10" fill="#663399"/><rect x="338.3" y="52" width="51.2" height="10" fill="#3572A5"/><rect x="389.5" y="52" width="34.4" height="10" fill="#3178c6"/><rect x="423.9" y="52" width="30.1" height="10" fill="#f34b7d"/></g>
-<g class="fade" style="animation-delay:0.1s"><circle cx="32" cy="93" r="6" fill="#f1e05a"/><text class="l" x="46" y="98">JavaScript</text><text class="s" x="222" y="98" text-anchor="end">41.5%</text></g>
-<g class="fade" style="animation-delay:0.17s"><circle cx="252" cy="93" r="6" fill="#e34c26"/><text class="l" x="266" y="98">HTML</text><text class="s" x="442" y="98" text-anchor="end">18.6%</text></g>
-<g class="fade" style="animation-delay:0.24000000000000002s"><circle cx="32" cy="123" r="6" fill="#663399"/><text class="l" x="46" y="128">CSS</text><text class="s" x="222" y="128" text-anchor="end">12.9%</text></g>
-<g class="fade" style="animation-delay:0.31000000000000005s"><circle cx="252" cy="123" r="6" fill="#3572A5"/><text class="l" x="266" y="128">Python</text><text class="s" x="442" y="128" text-anchor="end">12.0%</text></g>
-<g class="fade" style="animation-delay:0.38s"><circle cx="32" cy="153" r="6" fill="#3178c6"/><text class="l" x="46" y="158">TypeScript</text><text class="s" x="222" y="158" text-anchor="end">8.0%</text></g>
-<g class="fade" style="animation-delay:0.45000000000000007s"><circle cx="252" cy="153" r="6" fill="#f34b7d"/><text class="l" x="266" y="158">C++</text><text class="s" x="442" y="158" text-anchor="end">7.0%</text></g>
+<g clip-path="url(#bar)"><rect x="26.0" y="52" width="177.4" height="10" fill="#f1e05a"/><rect x="203.4" y="52" width="79.6" height="10" fill="#e34c26"/><rect x="283.0" y="52" width="55.3" height="10" fill="#663399"/><rect x="338.3" y="52" width="51.3" height="10" fill="#3572A5"/><rect x="389.5" y="52" width="34.4" height="10" fill="#3178c6"/><rect x="423.9" y="52" width="30.1" height="10" fill="#f34b7d"/></g>
+<g ><circle cx="32" cy="93" r="6" fill="#f1e05a"/><text class="l" x="46" y="98">JavaScript</text><text class="s" x="222" y="98" text-anchor="end">41.4%</text></g>
+<g ><circle cx="252" cy="93" r="6" fill="#e34c26"/><text class="l" x="266" y="98">HTML</text><text class="s" x="442" y="98" text-anchor="end">18.6%</text></g>
+<g ><circle cx="32" cy="123" r="6" fill="#663399"/><text class="l" x="46" y="128">CSS</text><text class="s" x="222" y="128" text-anchor="end">12.9%</text></g>
+<g ><circle cx="252" cy="123" r="6" fill="#3572A5"/><text class="l" x="266" y="128">Python</text><text class="s" x="442" y="128" text-anchor="end">12.0%</text></g>
+<g ><circle cx="32" cy="153" r="6" fill="#3178c6"/><text class="l" x="46" y="158">TypeScript</text><text class="s" x="222" y="158" text-anchor="end">8.0%</text></g>
+<g ><circle cx="252" cy="153" r="6" fill="#f34b7d"/><text class="l" x="266" y="158">C++</text><text class="s" x="442" y="158" text-anchor="end">7.0%</text></g>
 </svg>
