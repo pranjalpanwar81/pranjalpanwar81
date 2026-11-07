@@ -178,10 +178,9 @@ function statsCard(d, s) {
     ['pr', 'Pull requests', d.prs, T.violet],
     ['issue', 'Issues', d.issues, T.pink],
     ['repo', 'Public repositories', d.repos, T.cyan],
-    ['star', 'Stars earned', d.stars, T.violet],
   ]
   const body = rows.map(([ic, label, val, color], i) => {
-    const y = 66 + i * 26
+    const y = 79 + i * 26
     return `<g class="fade" style="animation-delay:${0.1 + i * 0.08}s">${icon(ic, 26, y - 12, color)}<text class="l" x="52" y="${y}">${label}</text><text class="v" x="270" y="${y}" text-anchor="end">${fmt(val)}</text></g>`
   }).join('\n')
   // Ring: contributions in the last 365 days, ring fills by share of active days.
@@ -301,5 +300,4 @@ await mkdir(OUT, { recursive: true })
 await writeFile(`${OUT}/stats.svg`, statsCard(data, s))
 await writeFile(`${OUT}/languages.svg`, langsCard(data))
 await writeFile(`${OUT}/streak.svg`, streakCard(s))
-await writeFile(`${OUT}/activity.svg`, activityCard(data))
-console.log(`Wrote 4 cards to ${OUT}/ (total ${s.total}, current streak ${s.current.len}, longest ${s.longest.len})`)
+console.log(`Wrote 3 cards to ${OUT}/ (total ${s.total}, current streak ${s.current.len}, longest ${s.longest.len})`)

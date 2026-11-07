@@ -41,8 +41,6 @@ const pranjal = {
 
 <img src="./assets/stats/streak.svg" width="70%" alt="Contribution streak"/>
 
-<img src="./assets/stats/activity.svg" width="100%" alt="Contribution activity, last 31 days"/>
-
 <img src="./assets/footer.svg" width="100%" alt="Let's build something that ships"/>
 
 </div>
