@@ -149,8 +149,6 @@ const frame = (w, h, body, title) => `<svg xmlns="http://www.w3.org/2000/svg" wi
   .v{font:700 14px ${SANS};fill:${T.white}}
   .s{font:400 12px ${SANS};fill:${T.dim}}
   .m{font:400 11px ${MONO};fill:${T.dim}}
-  .fade{opacity:0;animation:in .6s ease forwards}
-  @keyframes in{to{opacity:1}}
 </style>
 <rect x="0.5" y="0.5" width="${w - 1}" height="${h - 1}" rx="16" fill="${T.bg}" stroke="${T.line}"/>
 ${body}
@@ -181,7 +179,7 @@ function statsCard(d, s) {
   ]
   const body = rows.map(([ic, label, val, color], i) => {
     const y = 79 + i * 26
-    return `<g class="fade" style="animation-delay:${0.1 + i * 0.08}s">${icon(ic, 26, y - 12, color)}<text class="l" x="52" y="${y}">${label}</text><text class="v" x="270" y="${y}" text-anchor="end">${fmt(val)}</text></g>`
+    return `<g >${icon(ic, 26, y - 12, color)}<text class="l" x="52" y="${y}">${label}</text><text class="v" x="270" y="${y}" text-anchor="end">${fmt(val)}</text></g>`
   }).join('\n')
   // Ring: contributions in the last 365 days, ring fills by share of active days.
   const last = d.calendar.slice(-365)
@@ -192,7 +190,6 @@ function statsCard(d, s) {
   const ring = `<g transform="translate(375 108)">
   <circle r="${r}" fill="none" stroke="${T.line}" stroke-width="9"/>
   <circle r="${r}" fill="none" stroke="url(#g)" stroke-width="9" stroke-linecap="round" transform="rotate(-90)" stroke-dasharray="${(C * frac).toFixed(1)} ${C.toFixed(1)}">
-    <animate attributeName="stroke-dasharray" from="0 ${C.toFixed(1)}" to="${(C * frac).toFixed(1)} ${C.toFixed(1)}" dur="1.2s" fill="freeze"/>
   </circle>
   <text x="0" y="6" text-anchor="middle" style="font:700 26px ${SANS};fill:${T.white}">${fmt(lastTotal)}</text>
   <text x="0" y="26" text-anchor="middle" class="s">past year</text>
@@ -216,7 +213,7 @@ function langsCard(d) {
     const col = i % 2, row = Math.floor(i / 2)
     const lx = 26 + col * 220, ly = 98 + row * 30
     const pct = ((l.size / total) * 100).toFixed(1)
-    return `<g class="fade" style="animation-delay:${0.1 + i * 0.07}s"><circle cx="${lx + 6}" cy="${ly - 5}" r="6" fill="${l.color}"/><text class="l" x="${lx + 20}" y="${ly}">${esc(l.name)}</text><text class="s" x="${lx + 196}" y="${ly}" text-anchor="end">${pct}%</text></g>`
+    return `<g ><circle cx="${lx + 6}" cy="${ly - 5}" r="6" fill="${l.color}"/><text class="l" x="${lx + 20}" y="${ly}">${esc(l.name)}</text><text class="s" x="${lx + 196}" y="${ly}" text-anchor="end">${pct}%</text></g>`
   }).join('\n')
   return frame(480, 210, `<text class="t" x="26" y="34">Most Used Languages</text>
 <clipPath id="bar"><rect x="26" y="52" width="${W}" height="10" rx="5"/></clipPath>
@@ -227,7 +224,7 @@ ${legend}`, 'Most used languages')
 function streakCard(s) {
   const today = new Date().toISOString().slice(0, 10)
   const range = (a, b) => (a ? (a === b ? dfmt(a) : `${dfmt(a, a.slice(0, 4) !== b.slice(0, 4))} – ${dfmt(b)}`) : '—')
-  const col = (cx, big, label, sub, color) => `<g class="fade" transform="translate(${cx} 0)">
+  const col = (cx, big, label, sub, color) => `<g transform="translate(${cx} 0)">
   <text x="0" y="104" text-anchor="middle" style="font:700 34px ${SANS};fill:${T.white}">${big}</text>
   <text x="0" y="140" text-anchor="middle" style="font:600 15px ${SANS};fill:${color}">${label}</text>
   <text x="0" y="164" text-anchor="middle" class="s">${sub}</text>
