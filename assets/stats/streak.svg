@@ -21,10 +21,10 @@
 <g transform="translate(480 92)">
   <circle r="46" fill="none" stroke="#8b5cf6" stroke-width="5"/>
   <path d="M0 -60 c 7 8 9 13 4 20 c 6 -2 8 -6 8 -10 c 6 7 5 16 -2 21 c -6 4 -14 4 -20 0 c -7 -5 -8 -14 -2 -21 c 0 4 2 8 6 10 c -3 -6 0 -13 6 -20z" fill="#f472b6" transform="scale(0.55) translate(0 -37.72)"/>
-  <text x="0" y="12" text-anchor="middle" style="font:700 34px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff">1</text>
+  <text x="0" y="12" text-anchor="middle" style="font:700 34px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff">0</text>
 </g>
 <text x="480" y="168" text-anchor="middle" style="font:600 15px Segoe UI,Helvetica,Arial,sans-serif;fill:#22d3ee">Current Streak</text>
-<text x="480" y="190" text-anchor="middle" class="s">Nov 7, 2026</text>
+<text x="480" y="190" text-anchor="middle" class="s">Start one today</text>
 <g transform="translate(800 0)">
   <text x="0" y="104" text-anchor="middle" style="font:700 34px Segoe UI,Helvetica,Arial,sans-serif;fill:#ffffff">9</text>
   <text x="0" y="140" text-anchor="middle" style="font:600 15px Segoe UI,Helvetica,Arial,sans-serif;fill:#22d3ee">Longest Streak</text>
